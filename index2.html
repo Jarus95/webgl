@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .centered-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      overflow: hidden; /* Ekran o‘lchamidan ortiq joyni yashirish */
+    }
+
+    iframe {
+      min-width: 1000px;  /* Iframe kengligi, kichik qurilmalarda siqilmasligi uchun */
+      min-height: 700px;  /* Iframe balandligi */
+      width: 100%; /* 100% gacha kengayishi mumkin */
+      height: 100%; /* 100% gacha balandligi ham o‘zgarishi mumkin */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="centered-container">
+    <iframe
+      id="inlineFrameExample"
+      title="Inline Frame Example"
+      src="https://jarus95.github.io/webgl/index.html">
+    </iframe>
+  </div>
+</body>
+</html>
